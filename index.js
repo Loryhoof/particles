@@ -1351,8 +1351,8 @@ export default () => {
     const plane = new THREE.Mesh( geometry, material );
     plane.rotation.x=Math.PI/2;
 
-    app.add( plane );
-    plane.position.set(123.7, 0, -54.5);
+    //app.add( plane );
+    //plane.position.set(123.7, 0, -54.5);
     app.updateMatrixWorld();
 
     useFrame(({timestamp}) => {
@@ -1546,7 +1546,7 @@ export default () => {
             particleCount
         );
         
-        app.add(mesh);
+        //app.add(mesh);
         
         for (let i = 0; i < particleCount; i++) {
             
@@ -1808,7 +1808,7 @@ export default () => {
             particleCount
         );
         
-        app.add(mesh);
+        //app.add(mesh);
         
         for (let i = 0; i < particleCount; i++) {
             
